@@ -1,0 +1,19 @@
+<Page>
+    <ActionBar title="Firewall Resleeve" class="action-bar">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/> 
+    </ActionBar>
+
+<ScrollView>
+    <StackLayout orientation="vertical"> 
+
+    <Label class="h1 p-15" text="Gamemaster Menu:" textWrap="true" style="text-align: center;"></Label>
+
+    <Button text="Storyline Setting/
+  Campaign Editor" tap="enter_storyline_settings"/>
+    <Button text="Dice & Calculator" />
+    <Button text="Gamemaster Notes" />
+
+    </StackLayout>
+</ScrollView>
+
+</Page>

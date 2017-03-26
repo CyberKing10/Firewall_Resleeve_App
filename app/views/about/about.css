@@ -1,0 +1,15 @@
+Page{
+    background-color: black;
+    font-size: 14;
+    color: white;
+}
+
+#division{
+    font-weight: bold;
+}
+#paragraph{
+    margin: 10;
+    text-align: left;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}

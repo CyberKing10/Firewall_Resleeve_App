@@ -1,0 +1,32 @@
+@import 'nativescript-theme-core/css/blue.css';
+
+/* Your CSS goes here */
+#Main_Menu {
+    background-color: black;
+    font-size: 20;
+    color: white;
+}
+
+#div{
+    padding: 10 10 10 10;
+}
+
+#About{
+    background-color: green;
+    margin: 10;
+    padding: 10;
+    border-radius: 25px;
+    margin-left: 150px; 
+}
+
+Button {
+    background-color: blue;
+    margin: 30;
+    padding: 10;
+    border-radius: 25px;
+}
+
+Button:highlighted { 
+    background-color: cyan; 
+    color: black;
+}

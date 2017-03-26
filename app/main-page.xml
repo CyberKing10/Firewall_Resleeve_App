@@ -1,0 +1,24 @@
+<Page id="Main_Menu" loaded="pageLoaded">
+
+  <ActionBar title="Firewall Resleeve" class="action-bar">
+  <ActionItem tap=""
+      ios.systemIcon="16" ios.position="right"
+      text="Something" android.position="popup"/>
+  </ActionBar>
+
+<ScrollView>
+  <StackLayout id="div" orientation="vertical">
+  <!-- Your UI components go here -->
+  <Image src="~/images/main_logo.png"></Image>
+
+  <Label class="h1 p-15" text="Main Menu:" textWrap="true" style="text-align: center;"></Label>
+
+        <Button text="Game-Master Mode" tap="enter_gamemaster" />
+        <Button text="Player Mode" tap="enter_player" />
+        <Button id="About" text="About" tap="enter_about" />
+
+  </StackLayout>
+
+</ScrollView>
+
+</Page>

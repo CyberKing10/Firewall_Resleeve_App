@@ -1,0 +1,24 @@
+<Page>
+    <ActionBar title="Firewall Resleeve" class="action-bar">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/> 
+    </ActionBar>
+
+<ScrollView>
+    <StackLayout orientation="vertical"> 
+
+    <Label class="h1 p-15" text="About" textWrap="true" style="text-align: center;"></Label>
+    
+    <Label id="division" text="____________________________________________________________"></Label>
+
+    <Label textWrap="true" id="paragraph" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Pellentesque dignissim mattis sagittis. Praesent tempus, sem et imperdiet congue, mauris ex aliquet nunc, 
+sed maximus ante enim sit amet turpis. Maecenas efficitur bibendum nulla. Donec venenatis, eros eget aliquet 
+porttitor, mi neque iaculis diam, nec suscipit nunc risus id velit. Phasellus dapibus, neque id elementum 
+suscipit, nibh turpis faucibus lectus, eget imperdiet lectus mi non mi. Ut et pretium purus. Vestibulum 
+vulputate justo id felis elementum sagittis. Sed vel purus vitae lectus interdum mattis. Phasellus id 
+fringilla lectus, at tincidunt tortor."></Label>
+
+    </StackLayout>
+</ScrollView>
+
+</Page>

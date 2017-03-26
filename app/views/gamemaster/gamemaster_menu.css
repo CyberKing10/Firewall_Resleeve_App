@@ -1,0 +1,7 @@
+@import 'nativescript-theme-core/css/blue.css';
+
+Page{
+    background-color: black;
+    font-size: 20;
+    color: white;
+}

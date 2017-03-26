@@ -1,0 +1,17 @@
+<Page>
+    <ActionBar title="Firewall Resleeve" class="action-bar">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/> 
+    </ActionBar>
+
+<ScrollView>
+    <StackLayout orientation="vertical"> 
+
+    <Label class="h1 p-15" text="Storyline Settings:" textWrap="true" style="text-align: center;"></Label>
+
+    <Button text="Create new story:"/>
+   
+
+    </StackLayout>
+</ScrollView>
+
+</Page>
